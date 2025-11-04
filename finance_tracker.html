@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>💰 Personal Finance Tracker</h1>
+
+  <div class="container">
+    <label for="tipe">Tipe Transaksi:</label>
+    <select id="tipe">
+      <option value="pemasukan">Pemasukan</option>
+      <option value="pengeluaran">Pengeluaran</option>
+    </select>
+
+    <label for="jumlah">Jumlah (Rp):</label>
+    <input type="number" id="jumlah" placeholder="contoh: 50000">
+
+    <label for="catatan">Catatan:</label>
+    <input type="text" id="catatan" placeholder="contoh: beli kopi">
+
+    <button id="tambah">Tambah Transaksi</button>
+
+    <div class="saldo" id="saldo">Saldo saat ini: Rp0</div>
+
+    <h3>Daftar Transaksi</h3>
+    <ul id="daftarTransaksi"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
