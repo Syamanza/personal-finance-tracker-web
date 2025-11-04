@@ -1,3 +1,4 @@
+// versi development: penyesuaian kecil untuk PR demo
 const tipe = document.getElementById('tipe');
 const jumlah = document.getElementById('jumlah');
 const catatan = document.getElementById('catatan');
